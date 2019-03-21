@@ -21,3 +21,9 @@ var modeButtons = document.querySelectorAll(".mode");
 for (let i = 0; i < squares.length; i++) {
   squares[i].style.backgroundColor = colors[i];
 }
+
+for (i = 0; i < squares.length; i++) {
+  squares[i].addEventListener("click", function() {
+    alert("option was clicked");
+  });
+}
